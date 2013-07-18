@@ -45,3 +45,15 @@ ln -sb dotfiles/.bashrc .
 ln -sb dotfiles/.bashrc_custom .
 ln -sf dotfiles/.emacs.d .
 
+# install cheerio commander
+npm install cheerio
+npm install commander
+
+#install heroku toolbelt
+wget -qO- https://toolbelt.heroku.com/install-ubuntu.sh | sh
+
+# ins tall screen
+cd $HOME
+wget raw.github.com/startup-class/dotfiles/master/.screenrc -O .screenrc
+head .screenrc
+
