@@ -46,8 +46,9 @@ ln -sb dotfiles/.bashrc_custom .
 ln -sf dotfiles/.emacs.d .
 
 # install cheerio commander
-npm install cheerio
-npm install commander
+sudo npm install cheerio
+sudo npm install commander
+sudo npm install cheerio
 
 #install heroku toolbelt
 wget -qO- https://toolbelt.heroku.com/install-ubuntu.sh | sh
@@ -57,3 +58,21 @@ cd $HOME
 wget raw.github.com/startup-class/dotfiles/master/.screenrc -O .screenrc
 head .screenrc
 
+echo "---------------------------------------------------------"
+echo '    git config --global user.name "Your Name"'
+echo "   git config --global user.email you@example.com"
+echo "---------------------------------------------------------"
+echo "cd $HOME"
+echo "ssh-keygen -t rsa -C 'email@address.com'"
+echo "cat .ssh/id_rsa.pub"
+echo "copy key and add ssh key to https://github.com/setting/ssh"
+echo "ssh -T git@github.com"
+
+echo "---------------------------------------------------------"
+echo "sudo npm install -g n"
+echo "sudo n stable"
+
+echo "---------------------------------------------------------"
+echo "heroku login"
+echo "ssh-keygen -t rsa"
+echo "heroku keys:add"
