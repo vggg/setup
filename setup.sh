@@ -45,6 +45,9 @@ ln -sb dotfiles/.bashrc .
 ln -sb dotfiles/.bashrc_custom .
 ln -sf dotfiles/.emacs.d .
 
+# install node js and npm
+sudo apt-get install -y nodejs npm
+
 # install cheerio commander
 sudo npm install cheerio
 sudo npm install commander
