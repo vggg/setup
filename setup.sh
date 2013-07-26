@@ -49,7 +49,7 @@ ln -sf dotfiles/.emacs.d .
 sudo apt-get install -y nodejs npm
 
 # install cheerio commander
-sudo npm install cheerio
+sudo npm install express
 sudo npm install commander
 sudo npm install cheerio
 
