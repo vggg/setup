@@ -72,8 +72,8 @@ echo "copy key and add ssh key to https://github.com/setting/ssh"
 echo "ssh -T git@github.com"
 
 echo "---------------------------------------------------------"
-echo "sudo npm install -g n"
-echo "sudo n stable"
+sudo npm install -g n"
+sudo n stable"
 
 echo "---------------------------------------------------------"
 echo "heroku login"
